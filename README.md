@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sarvesh Mohite</h1>
-<h3 align="center">A passionate full stack developer from India</h3>
+<h3 align="center">Just a hairless ape,trying to turn coffee into code, and occasionally pretending to understand the mysteries of the universe.</h3>
 
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=cybersarvesh" alt="cybersarvesh" /></a> </p>
