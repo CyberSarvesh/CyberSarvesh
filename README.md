@@ -1,27 +1,165 @@
-<h1 align="center">Hi 👋, I'm Sarvesh Mohite</h1>
-<h3 align="center">Just a hairless ape,trying to turn coffee into code, and occasionally pretending to understand the mysteries of the universe.</h3>
+<div align="center">
 
+<img src="./assets/boot.svg" width="100%" alt="SarveshOS booting: mounting caffeine, loading react.ko, nextjs.ko, systems_programming.ko [LEARNING], understanding the universe [FAILED]"/>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=cybersarvesh" alt="cybersarvesh" /></a> </p>
+<sub><code>PID 1</code> · <code>/home/cybersarvesh</code> · <code>runlevel: caffeinated</code></sub>
 
-- 🌱 I’m currently learning **systems programming**
+</div>
 
-- 💬 Ask me about **react,nextjs**
+<br/>
 
-- 📫 How to reach me **sarveshmohite2005@gmail.com**
+```text
+SARVESH(1)                     Primate Programmer's Manual                     SARVESH(1)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.hackerrank.com/sarveshmohite201" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="sarveshmohite201" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/u/darth_sarvesh/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/darth_sarvesh/" height="30" width="40" /></a>
+NAME
+       sarvesh — a hairless ape that turns coffee into code
+
+SYNOPSIS
+       sarvesh [--react] [--nextjs] [--systems] [--pretend-to-understand-the-universe]
+
+DESCRIPTION
+       Sarvesh Mohite is a long-running userspace process that ships web apps by day
+       and descends toward the kernel by night. Known to hold strong opinions about
+       semicolons and weak opinions about sleep.
+
+OPTIONS
+       --react, --nextjs     Ask me anything. Stable. Production-ready.
+       --systems             Currently compiling. Expect warnings. Do not expect -Werror.
+       --universe            Experimental. Returns 42 or SIGSEGV, nondeterministically.
+
+BUGS
+       Occasionally mistakes "it works on my machine" for a deployment strategy.
+
+SEE ALSO
+       coffee(7), leetcode(1), hackerrank(1), stackoverflow(∞)
+```
+
+<br/>
+
+## `$ ps aux --sort=-%brain`
+
+| PID | USER | %BRAIN | STAT | COMMAND |
+|:---:|:-----|-------:|:----:|:--------|
+| `1` | sarvesh | 41.0 | `Ss` | `coffeed --daemon --refill-interval=2h` |
+| `128` | sarvesh | 27.5 | `R+` | `learn systems_programming --deep --no-shortcuts` |
+| `256` | sarvesh | 18.2 | `S` | `serve react nextjs --answer-questions` |
+| `512` | sarvesh | 9.3 | `S` | `grind leetcode --until=enlightened` |
+| `1024` | sarvesh | 4.0 | `D` | `ponder universe --verbose` <sub>⟵ uninterruptible sleep, do not disturb</sub> |
+
+<br/>
+
+## `$ tree ~/toolchain -L 2`
+
+```text
+~/toolchain
+├── 🔩 close-to-metal/       C · C++ · Bash · Linux
+├── 🎨 frontend/             React · Next.js · Redux · TypeScript · JavaScript · HTML · CSS · Sass · Tailwind
+├── ⚙️  backend/              Node.js · Express · Java · Python
+├── 🗄️  data/                 PostgreSQL · MySQL · MongoDB
+├── 🧪 quality/              Jest · Postman
+├── 📐 math/                 MATLAB
+└── 🌿 vcs/                  Git          # the only thing standing between me and chaos
+```
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,bash,linux,react,nextjs,redux,ts,js,html,css,sass,tailwind&perline=13" alt="low-level and frontend stack"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,java,py,postgres,mysql,mongodb,jest,postman,matlab,git&perline=11" alt="backend, data and tooling stack"/>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+<br/>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=cybersarvesh&show_icons=true&locale=en&layout=compact" alt="cybersarvesh" /></p>
+## `$ cat /proc/coffee/pipeline`
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cybersarvesh&show_icons=true&locale=en" alt="cybersarvesh" /></p>
+```mermaid
+flowchart LR
+    A([☕ coffee]) -->|ingest| B{brain.ko}
+    B -->|idea| C[✍️ code]
+    B -->|existential<br/>question| U[🌌 universe]
+    U -.->|no response| B
+    C --> D{compiles?}
+    D -->|no| A
+    D -->|yes| E{works?}
+    E -->|no| A
+    E -->|"yes (suspicious)"| F([🚀 git push])
+    F -->|dopamine| A
+```
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=cybersarvesh&" alt="cybersarvesh" /></p>
+<br/>
 
+## `$ dmesg | tail -3`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=cybersarvesh&show_icons=true&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=58a6ff&text_color=c9d1d9&ring_color=3fb950&include_all_commits=true&custom_title=sarvesh%20--stats" height="170" alt="GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=cybersarvesh&layout=compact&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9&custom_title=%2Fproc%2Flanguages" height="170" alt="Top languages"/>
+
+<img src="https://streak-stats.demolab.com/?user=cybersarvesh&hide_border=true&background=0d1117&ring=3fb950&fire=d29922&currStreakNum=f0f6fc&sideNums=f0f6fc&currStreakLabel=3fb950&sideLabels=8b949e&dates=6e7681&stroke=30363d" alt="Commit streak"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=cybersarvesh&theme=onedark&no-frame=true&no-bg=true&margin-w=6&row=1" alt="Trophies"/>
+
+</div>
+
+<br/>
+
+## `$ cat /etc/hosts`
+
+```text
+# reach this process via any of the following sockets
+127.0.0.1      mail        →  sarveshmohite2005@gmail.com
+127.0.0.1      leetcode    →  leetcode.com/u/darth_sarvesh
+127.0.0.1      hackerrank  →  hackerrank.com/sarveshmohite201
+```
+
+<p align="center">
+  <a href="mailto:sarveshmohite2005@gmail.com"><img src="https://img.shields.io/badge/send_signal-SIGMAIL-3fb950?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email"/></a>
+  <a href="https://leetcode.com/u/darth_sarvesh/"><img src="https://img.shields.io/badge/darth__sarvesh-LeetCode-d29922?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0d1117" alt="LeetCode"/></a>
+  <a href="https://www.hackerrank.com/sarveshmohite201"><img src="https://img.shields.io/badge/sarveshmohite201-HackerRank-58a6ff?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=0d1117" alt="HackerRank"/></a>
+</p>
+
+<br/>
+
+<details>
+<summary><code>⚠️  kernel panic — click to inspect core dump</code></summary>
+
+<br/>
+
+```c
+/* core.c — recovered from /var/crash/sarvesh.core */
+
+#include <coffee.h>
+#include <universe.h>   /* header found, implementation missing */
+
+struct human {
+    const char *name;     /* "Sarvesh Mohite"               */
+    unsigned    hair;     /* 0, by evolutionary design      */
+    float       caffeine; /* must remain > 0.0f at all times */
+};
+
+int main(void) {
+    struct human me = { "Sarvesh Mohite", 0, 1.0f };
+
+    while (me.caffeine > 0.0f) {
+        code();
+        me.caffeine -= 0.25f;
+        if (me.caffeine < 0.5f) me.caffeine += brew();
+    }
+
+    understand(universe);   /* Segmentation fault (core dumped) */
+    return 42;
+}
+```
+
+> If you read this far, you are now legally a contributor. Leave a ⭐ on any repo to `git commit` your visit.
+
+</details>
+
+<br/>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=cybersarvesh&style=flat-square&color=3fb950&label=PROCESSES+SPAWNED" alt="profile views"/>
+
+<sub><code>$ shutdown -h now</code> &nbsp;·&nbsp; <i>just kidding. the coffee is still hot.</i></sub>
+
+</div>
