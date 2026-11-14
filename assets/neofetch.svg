@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-label="GitHub stats for CyberSarvesh">
+<title>CyberSarvesh — neofetch</title>
+<style>
+  .t { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; font-size: 14px; fill: #c9d1d9; white-space: pre; }
+  .k { fill: #3fb950; font-weight: 700; }
+  .d { fill: #6e7681; }
+  .h { fill: #f0f6fc; font-weight: 700; }
+  .a { fill: #d29922; font-weight: 700; }
+  .l { opacity: 0; animation: on .25s ease-out forwards; }
+  @keyframes on { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+  .steam { animation: rise 2.4s ease-in-out infinite; }
+  @keyframes rise { 0%,100% { opacity: .35; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-3px); } }
+</style>
+<rect width="900" height="440" rx="12" fill="#0d1117"/>
+<rect width="900" height="34" rx="12" fill="#161b22"/><rect y="22" width="900" height="12" fill="#161b22"/>
+<circle cx="20" cy="17" r="6" fill="#f85149"/><circle cx="40" cy="17" r="6" fill="#d29922"/><circle cx="60" cy="17" r="6" fill="#3fb950"/>
+<text x="450" y="22" text-anchor="middle" class="t d" style="font-size:12px">CyberSarvesh@hairless-ape: ~ — neofetch</text>
+
+<text class="t" x="24" y="66"><tspan class="k">CyberSarvesh@hairless-ape</tspan><tspan class="d">:</tspan><tspan fill="#58a6ff">~</tspan><tspan class="d">$</tspan> neofetch</text>
+
+<text class="t a steam" x="40" y="110">      ( (       </text>
+<text class="t a steam" x="40" y="130">       ) )      </text>
+<text class="t a" x="40" y="150">    ........    </text>
+<text class="t a" x="40" y="170">    |      |]   </text>
+<text class="t a" x="40" y="190">    \      /    </text>
+<text class="t a" x="40" y="210">     `----&#39;     </text>
+<text class="t a" x="40" y="230">                </text>
+<text class="t a" x="40" y="250">   coffee.ko    </text>
+
+<text class="t h l" x="300" y="100" style="animation-delay:0.15s">CyberSarvesh@hairless-ape</text>
+<text class="t d l" x="300" y="116" style="animation-delay:0.15s">─────────────────────────</text>
+<text class="t l" x="300" y="138" style="animation-delay:0.27s"><tspan class="k">OS</tspan><tspan class="d">:</tspan> SarveshOS 20.05</text>
+<text class="t l" x="300" y="158" style="animation-delay:0.39s"><tspan class="k">Host</tspan><tspan class="d">:</tspan> github.com/CyberSarvesh</text>
+<text class="t l" x="300" y="178" style="animation-delay:0.51s"><tspan class="k">Uptime</tspan><tspan class="d">:</tspan> 3 yrs (since 2023)</text>
+<text class="t l" x="300" y="198" style="animation-delay:0.63s"><tspan class="k">Repos</tspan><tspan class="d">:</tspan> 15 public</text>
+<text class="t l" x="300" y="218" style="animation-delay:0.75s"><tspan class="k">Stars</tspan><tspan class="d">:</tspan> 0 ★ earned</text>
+<text class="t l" x="600" y="138" style="animation-delay:0.87s"><tspan class="k">Commits</tspan><tspan class="d">:</tspan> 176 (last 12 mo)</text>
+<text class="t l" x="600" y="158" style="animation-delay:0.99s"><tspan class="k">Contribs</tspan><tspan class="d">:</tspan> 211 (last 12 mo)</text>
+<text class="t l" x="600" y="178" style="animation-delay:1.11s"><tspan class="k">PRs / Issues</tspan><tspan class="d">:</tspan> 17 / 1</text>
+<text class="t l" x="600" y="198" style="animation-delay:1.23s"><tspan class="k">Followers</tspan><tspan class="d">:</tspan> 12</text>
+<text class="t l" x="600" y="218" style="animation-delay:1.35s"><tspan class="k">Shell</tspan><tspan class="d">:</tspan> bash &lt; /dev/coffee</text>
+
+<g class="l" style="animation-delay:1.47s"><rect x="300" y="250" width="22" height="14" rx="2" fill="#f85149"/><rect x="326" y="250" width="22" height="14" rx="2" fill="#d29922"/><rect x="352" y="250" width="22" height="14" rx="2" fill="#3fb950"/><rect x="378" y="250" width="22" height="14" rx="2" fill="#58a6ff"/><rect x="404" y="250" width="22" height="14" rx="2" fill="#bc8cff"/><rect x="430" y="250" width="22" height="14" rx="2" fill="#39c5cf"/><rect x="456" y="250" width="22" height="14" rx="2" fill="#f0f6fc"/><rect x="482" y="250" width="22" height="14" rx="2" fill="#6e7681"/></g>
+
+<text class="t d l" x="300" y="290" style="animation-delay:1.59s">languages by bytes</text>
+<g class="l" style="animation-delay:1.71s">
+<clipPath id="bar"><rect x="300" y="300" width="560" height="10" rx="5"/></clipPath>
+<g clip-path="url(#bar)"><rect x="300.00" y="300" width="176.60" height="10" fill="#3178c6"/><rect x="476.60" y="300" width="164.59" height="10" fill="#00ADD8"/><rect x="641.19" y="300" width="96.77" height="10" fill="#3572A5"/><rect x="737.96" y="300" width="51.21" height="10" fill="#dea584"/><rect x="789.17" y="300" width="25.91" height="10" fill="#f1e05a"/><rect x="815.09" y="300" width="24.69" height="10" fill="#663399"/><rect x="839.78" y="300" width="20.22" height="10" fill="#6e7681"/></g>
+<circle cx="305" cy="332" r="5" fill="#3178c6"/><text class="t" x="316" y="336">TypeScript <tspan class="d">31.5%</tspan></text><circle cx="495" cy="332" r="5" fill="#00ADD8"/><text class="t" x="506" y="336">Go <tspan class="d">29.4%</tspan></text><circle cx="685" cy="332" r="5" fill="#3572A5"/><text class="t" x="696" y="336">Python <tspan class="d">17.3%</tspan></text><circle cx="305" cy="354" r="5" fill="#dea584"/><text class="t" x="316" y="358">Rust <tspan class="d">9.1%</tspan></text><circle cx="495" cy="354" r="5" fill="#f1e05a"/><text class="t" x="506" y="358">JavaScript <tspan class="d">4.6%</tspan></text><circle cx="685" cy="354" r="5" fill="#663399"/><text class="t" x="696" y="358">CSS <tspan class="d">4.4%</tspan></text><circle cx="305" cy="376" r="5" fill="#6e7681"/><text class="t" x="316" y="380">Other <tspan class="d">3.6%</tspan></text>
+</g>
+
+<text class="t d" x="876" y="426" text-anchor="end" style="font-size:11px">regenerated 2026-11-14 by a GitHub Action · no third-party servers were harmed</text>
+</svg>
