@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-label="SarveshOS boot sequence">
+  <title>SarveshOS boot sequence</title>
+  <style>
+    .t  { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; font-size: 14px; fill: #c9d1d9; white-space: pre; }
+    .d  { fill: #6e7681; }
+    .g  { fill: #3fb950; font-weight: 700; }
+    .y  { fill: #d29922; font-weight: 700; }
+    .r  { fill: #f85149; font-weight: 700; }
+    .b  { fill: #58a6ff; }
+    .p  { fill: #bc8cff; }
+    .h  { fill: #f0f6fc; font-weight: 700; }
+    .l  { opacity: 0; animation: on .01s linear forwards; }
+    @keyframes on { to { opacity: 1; } }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .scan { animation: scan 6s linear infinite; }
+    @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(430px); } }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#010409"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fb950" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#3fb950" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="0" y="0" width="900" height="430" rx="12"/></clipPath>
+    <clipPath id="type1"><rect x="0" y="0" width="0" height="430">
+      <animate attributeName="width" from="0" to="900" begin="3.9s" dur="0.9s" fill="freeze" calcMode="discrete" keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1" values="0;140;150;160;170;180;190;200;210;220;900"/>
+    </rect></clipPath>
+    <clipPath id="type2"><rect x="0" y="0" width="0" height="430">
+      <animate attributeName="width" from="0" to="900" begin="5.6s" dur="1s" fill="freeze" calcMode="discrete" keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1" values="0;140;150;160;170;180;190;200;210;220;900"/>
+    </rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <rect width="900" height="430" fill="url(#bg)"/>
+    <!-- title bar -->
+    <rect width="900" height="34" fill="#161b22"/>
+    <circle cx="20" cy="17" r="6" fill="#f85149"/>
+    <circle cx="40" cy="17" r="6" fill="#d29922"/>
+    <circle cx="60" cy="17" r="6" fill="#3fb950"/>
+    <text x="450" y="22" text-anchor="middle" class="t d" style="font-size:12px">sarvesh@hairless-ape: ~ — tty1</text>
+
+    <!-- boot log -->
+    <text class="t h l" x="24" y="66"  style="animation-delay:.2s">SarveshOS v20.05 (codename: hairless-ape) — x86_64 primate</text>
+    <text class="t l" x="24" y="96"  style="animation-delay:.6s"><tspan class="d">[    0.000]</tspan> Booting from <tspan class="b">/dev/coffee</tspan> ...</text>
+    <text class="t l" x="24" y="118" style="animation-delay:.9s"><tspan class="d">[    0.042]</tspan> Detected 1x human  ·  class: ape  ·  hair: <tspan class="p">none</tspan></text>
+    <text class="t l" x="24" y="140" style="animation-delay:1.2s"><tspan class="d">[    0.137]</tspan> Mounting caffeine on /usr/bin/brain<tspan x="560" class="g">[  OK  ]</tspan></text>
+    <text class="t l" x="24" y="162" style="animation-delay:1.5s"><tspan class="d">[    0.271]</tspan> Loading module react.ko<tspan x="560" class="g">[  OK  ]</tspan></text>
+    <text class="t l" x="24" y="184" style="animation-delay:1.75s"><tspan class="d">[    0.302]</tspan> Loading module nextjs.ko<tspan x="560" class="g">[  OK  ]</tspan></text>
+    <text class="t l" x="24" y="206" style="animation-delay:2.1s"><tspan class="d">[    0.489]</tspan> Loading module systems_programming.ko<tspan x="560" class="y">[ LEARNING ]</tspan></text>
+    <text class="t l" x="24" y="228" style="animation-delay:2.5s"><tspan class="d">[    0.613]</tspan> Pretending to understand the universe<tspan x="560" class="g">[  OK  ]</tspan></text>
+    <text class="t l" x="24" y="250" style="animation-delay:2.9s"><tspan class="d">[    0.777]</tspan> Actually understanding the universe<tspan x="560" class="r">[FAILED]</tspan></text>
+    <text class="t l" x="24" y="272" style="animation-delay:3.2s"><tspan class="d">[    0.778]</tspan> <tspan class="d">non-fatal. refilling mug and continuing anyway.</tspan></text>
+
+    <!-- shell -->
+    <g class="l" style="animation-delay:3.6s">
+      <text class="t" x="24" y="312" clip-path="url(#type1)"><tspan class="g">sarvesh@ape</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$</tspan> whoami</text>
+    </g>
+    <text class="t h l" x="24" y="334" style="animation-delay:4.9s">Sarvesh Mohite — converts coffee → code, with occasional segfaults.</text>
+    <g class="l" style="animation-delay:5.3s">
+      <text class="t" x="24" y="366" clip-path="url(#type2)"><tspan class="g">sarvesh@ape</tspan><tspan class="d">:</tspan><tspan class="b">~</tspan><tspan class="d">$</tspan> scroll ↓</text>
+    </g>
+    <rect class="l cur" x="230" y="353" width="9" height="17" fill="#3fb950" style="animation: on .01s 6.7s forwards, blink 1s 6.7s steps(1) infinite;"/>
+
+    <text class="t d l" x="876" y="410" text-anchor="end" style="font-size:11px;animation-delay:6.8s">uptime: since 2005 · load avg: ☕ ☕ ☕</text>
+
+    <!-- CRT scanline -->
+    <rect class="scan" x="0" y="0" width="900" height="40" fill="url(#beam)"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="429" rx="12" fill="none" stroke="#30363d"/>
+</svg>
