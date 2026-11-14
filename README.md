@@ -71,19 +71,7 @@ SEE ALSO
 
 ## `$ cat /proc/coffee/pipeline`
 
-```mermaid
-flowchart LR
-    A([☕ coffee]) -->|ingest| B{brain.ko}
-    B -->|idea| C[✍️ code]
-    B -->|existential<br/>question| U[🌌 universe]
-    U -.->|no response| B
-    C --> D{compiles?}
-    D -->|no| A
-    D -->|yes| E{works?}
-    E -->|no| A
-    E -->|"yes (suspicious)"| F([🚀 git push])
-    F -->|dopamine| A
-```
+<img src="./assets/pipeline.svg" width="100%" alt="Pipeline: coffee goes into brain.ko, which produces code. Doesn't compile or doesn't work? Back to coffee. Works? git push, and the dopamine loops back to coffee. Questions sent to the universe get only silence."/>
 
 <br/>
 
@@ -91,9 +79,7 @@ flowchart LR
 
 <div align="center">
 
-<img src="./assets/neofetch.svg" width="100%" alt="neofetch-style card: repos, stars, commits, contributions, PRs, followers and top languages"/>
-
-<img src="https://streak-stats.demolab.com/?user=cybersarvesh&hide_border=true&background=0d1117&ring=3fb950&fire=d29922&currStreakNum=f0f6fc&sideNums=f0f6fc&currStreakLabel=3fb950&sideLabels=8b949e&dates=6e7681&stroke=30363d" alt="Commit streak"/>
+<img src="./assets/neofetch.svg" width="100%" alt="neofetch-style card: repos, stars, commits, contributions, streaks, last push, a contribution heatmap and top languages"/>
 
 </div>
 

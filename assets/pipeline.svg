@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310" role="img" aria-label="Pipeline: coffee is ingested by brain.ko, which produces code. If it doesn't compile or doesn't work, back to coffee. If it works, git push, and the dopamine loops back to coffee. Questions sent to the universe get no response.">
+  <title>/proc/coffee/pipeline</title>
+  <style>
+    .t  { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; font-size: 14px; fill: #f0f6fc; font-weight: 700; }
+    .s  { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; font-size: 11px; fill: #8b949e; }
+    .e  { fill: none; stroke: #30363d; stroke-width: 2; }
+    .ok { stroke: #3fb950; stroke-dasharray: 6 6; animation: march 1s linear infinite; }
+    .no { stroke: #f85149; stroke-opacity: .7; stroke-dasharray: 4 6; animation: march 1.4s linear infinite; }
+    .dp { stroke: #bc8cff; stroke-dasharray: 6 6; animation: march 1.2s linear infinite; }
+    .uv { stroke: #58a6ff; stroke-opacity: .6; stroke-dasharray: 2 6; animation: march 2s linear infinite; }
+    @keyframes march { to { stroke-dashoffset: -24; } }
+    .box  { fill: #161b22; stroke: #30363d; stroke-width: 1.5; }
+    .dec  { fill: #161b22; stroke: #d29922; stroke-width: 1.5; }
+    .push { fill: #0f2a19; stroke: #3fb950; stroke-width: 1.5; }
+    .univ { fill: #0d1a2d; stroke: #58a6ff; stroke-width: 1.5; stroke-dasharray: 4 4; }
+    .wob  { animation: wob 3s ease-in-out infinite; transform-origin: 210px 38px; }
+    @keyframes wob { 0%,100% { transform: rotate(-1.5deg); } 50% { transform: rotate(1.5deg); } }
+  </style>
+  <defs>
+    <marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3fb950"/></marker>
+    <marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#f85149"/></marker>
+    <marker id="aP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#bc8cff"/></marker>
+    <marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#58a6ff"/></marker>
+    <radialGradient id="glowG"><stop offset="0" stop-color="#3fb950"/><stop offset=".4" stop-color="#3fb950" stop-opacity=".5"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowR"><stop offset="0" stop-color="#f85149"/><stop offset=".4" stop-color="#f85149" stop-opacity=".5"/><stop offset="1" stop-color="#f85149" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowP"><stop offset="0" stop-color="#bc8cff"/><stop offset=".4" stop-color="#bc8cff" stop-opacity=".5"/><stop offset="1" stop-color="#bc8cff" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <rect width="900" height="310" rx="12" fill="#0d1117"/>
+  <rect x=".5" y=".5" width="899" height="309" rx="12" fill="none" stroke="#30363d"/>
+
+  <!-- ===== edges ===== -->
+  <!-- main line -->
+  <path class="e ok" d="M120 140 H158" marker-end="url(#aG)"/>
+  <path class="e ok" d="M260 140 H298" marker-end="url(#aG)"/>
+  <path class="e ok" d="M400 140 H426" marker-end="url(#aG)"/>
+  <path class="e ok" d="M552 140 H576" marker-end="url(#aG)"/>
+  <path class="e ok" d="M702 140 H738" marker-end="url(#aG)"/>
+  <text class="s" x="139" y="130" text-anchor="middle">ingest</text>
+  <text class="s" x="279" y="130" text-anchor="middle">idea</text>
+  <text class="s" x="564" y="130" text-anchor="middle">yes</text>
+  <text class="s" x="720" y="122" text-anchor="middle">yes</text>
+  <text class="s" x="720" y="133" text-anchor="middle" style="font-size:9px">(sus)</text>
+
+  <!-- universe: question up, silence down -->
+  <path class="e uv" d="M198 120 V60" marker-end="url(#aB)"/>
+  <path class="e uv" d="M222 58 V118" marker-end="url(#aB)" style="stroke-dasharray:1 7"/>
+  <text class="s" x="190" y="94" text-anchor="end">why?</text>
+  <text class="s" x="230" y="94">(silence)</text>
+
+  <!-- failures back to coffee -->
+  <path class="e no" d="M490 172 V222 H70 V162" marker-end="url(#aR)"/>
+  <path class="e no" d="M640 172 V222 H492"/>
+  <text class="s" x="498" y="200" style="fill:#f85149">no</text>
+  <text class="s" x="648" y="200" style="fill:#f85149">no</text>
+
+  <!-- dopamine loop -->
+  <path class="e dp" d="M800 162 V272 H44 V162" marker-end="url(#aP)"/>
+  <text class="s" x="420" y="266" text-anchor="middle" style="fill:#bc8cff">dopamine</text>
+
+  <!-- ===== travelling packets ===== -->
+  <circle r="9" fill="url(#glowG)">
+    <animateMotion dur="5s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" path="M70 140 H800"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.9;1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="url(#glowP)">
+    <animateMotion begin="5s" dur="5s" repeatCount="indefinite" path="M800 162 V272 H44 V162"/>
+    <animate attributeName="opacity" begin="5s" values="0;1;1;0" keyTimes="0;.05;.9;1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="8" fill="url(#glowR)" opacity="0">
+    <animateMotion begin="2s" dur="4.4s" repeatCount="indefinite" path="M490 172 V222 H70 V162"/>
+    <animate attributeName="opacity" begin="2s" values="0;1;1;0;0" keyTimes="0;.05;.45;.5;1" dur="4.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===== nodes ===== -->
+  <rect class="box" x="20" y="120" width="100" height="40" rx="20"/>
+  <text class="t" x="70" y="145" text-anchor="middle">☕ coffee</text>
+
+  <rect class="box" x="160" y="120" width="100" height="40" rx="6"/>
+  <text class="t" x="210" y="145" text-anchor="middle">brain.ko</text>
+
+  <rect class="box" x="300" y="120" width="100" height="40" rx="6"/>
+  <text class="t" x="350" y="145" text-anchor="middle">code</text>
+
+  <polygon class="dec" points="490,108 552,140 490,172 428,140"/>
+  <text class="t" x="490" y="145" text-anchor="middle" style="font-size:12px">compiles?</text>
+
+  <polygon class="dec" points="640,108 702,140 640,172 578,140"/>
+  <text class="t" x="640" y="145" text-anchor="middle" style="font-size:12px">works?</text>
+
+  <rect class="push" x="740" y="120" width="120" height="40" rx="20"/>
+  <text class="t" x="800" y="145" text-anchor="middle" style="fill:#3fb950">git push</text>
+
+  <g class="wob">
+    <rect class="univ" x="150" y="20" width="120" height="36" rx="18"/>
+    <text class="t" x="210" y="43" text-anchor="middle" style="fill:#58a6ff">universe</text>
+  </g>
+
+  <text class="s" x="880" y="296" text-anchor="end">/proc/coffee/pipeline · loop never terminates</text>
+</svg>
