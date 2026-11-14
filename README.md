@@ -87,16 +87,13 @@ flowchart LR
 
 <br/>
 
-## `$ dmesg | tail -3`
+## `$ neofetch`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=cybersarvesh&show_icons=true&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=58a6ff&text_color=c9d1d9&ring_color=3fb950&include_all_commits=true&custom_title=sarvesh%20--stats" height="170" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=cybersarvesh&layout=compact&hide_border=true&bg_color=0d1117&title_color=3fb950&text_color=c9d1d9&custom_title=%2Fproc%2Flanguages" height="170" alt="Top languages"/>
+<img src="./assets/neofetch.svg" width="100%" alt="neofetch-style card: repos, stars, commits, contributions, PRs, followers and top languages"/>
 
 <img src="https://streak-stats.demolab.com/?user=cybersarvesh&hide_border=true&background=0d1117&ring=3fb950&fire=d29922&currStreakNum=f0f6fc&sideNums=f0f6fc&currStreakLabel=3fb950&sideLabels=8b949e&dates=6e7681&stroke=30363d" alt="Commit streak"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=cybersarvesh&theme=onedark&no-frame=true&no-bg=true&margin-w=6&row=1" alt="Trophies"/>
 
 </div>
 
